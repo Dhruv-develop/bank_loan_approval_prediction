@@ -1,23 +1,33 @@
 # 🏦 Bank Loan Approval Prediction
 
-> A Machine Learning-powered **Streamlit web application** that predicts whether a customer's loan application is likely to be approved based on demographic, employment, financial, and credit-related information.
+<div align="center">
 
-## 🌐 Live Demo
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-🔗 **Streamlit App:**  
-https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/
+<a href="https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/">
+<img src="https://img.shields.io/badge/🚀%20Launch%20Live%20App-Streamlit-red?style=for-the-badge&logo=streamlit">
+</a>
+
+</div>
 
 ---
 
-## 🚀 Project Overview
+## 📌 Project Overview
 
-This project leverages Machine Learning classification algorithms to predict loan approval decisions for banking customers. The application provides real-time predictions through an interactive Streamlit interface and includes automated feature engineering to enhance model performance.
+**Bank Loan Approval Prediction** is an end-to-end Machine Learning project that predicts whether a customer's loan application is likely to be approved based on demographic, employment, financial, and credit-related information.
 
-### ✨ Key Features
+The model is deployed as an interactive **Streamlit Web Application**, allowing users to enter applicant details and receive instant loan approval predictions along with approval probability and risk assessment.
 
-- ✅ Loan Approval Prediction
-- 📊 Approval Probability Score
-- ⚠️ Risk Assessment
+---
+
+## ✨ Key Features
+
+- 🏦 Loan Approval Prediction
+- 📊 Approval & Rejection Probability
+- ⚠️ Applicant Risk Assessment
 - ⚙️ Automated Feature Engineering
 - 📋 Customer Information Summary
 - 🌐 Interactive Streamlit Dashboard
@@ -25,9 +35,9 @@ This project leverages Machine Learning classification algorithms to predict loa
 
 ---
 
-## 📊 Dataset Features
+# 📊 Dataset Features
 
-### 👤 Customer Information
+## 👤 Customer Information
 
 - Age
 - Gender
@@ -36,7 +46,7 @@ This project leverages Machine Learning classification algorithms to predict loa
 - Employment Type
 - Loan Purpose
 
-### 💰 Financial Information
+## 💰 Financial Information
 
 - Annual Income (Lakh)
 - Credit Score
@@ -50,9 +60,9 @@ This project leverages Machine Learning classification algorithms to predict loa
 
 ---
 
-## ⚙️ Feature Engineering
+# ⚙️ Feature Engineering
 
-To improve predictive performance, three custom features were engineered.
+To improve model performance, three custom features were engineered.
 
 ### 📌 Loan Income Ratio
 
@@ -60,7 +70,7 @@ To improve predictive performance, three custom features were engineered.
 loan_amount_lakh / (annual_income_lakh + 1)
 ```
 
-Measures the relationship between requested loan amount and annual income.
+Measures how large the requested loan amount is relative to the applicant's annual income.
 
 ---
 
@@ -74,7 +84,7 @@ Measures the relationship between requested loan amount and annual income.
 (missed_payments × 5)
 ```
 
-Combines creditworthiness, savings, and repayment history into a single financial stability metric.
+Combines credit score, savings balance, and repayment history into a single financial stability metric.
 
 ---
 
@@ -92,7 +102,7 @@ Represents the applicant's overall debt burden.
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |--------|---------:|----------:|--------:|---------:|
-| **Logistic Regression** | **99.37%** | **1.000** | **0.974** | **0.987** |
+| **🏆 Logistic Regression** | **99.37%** | **1.000** | **0.974** | **0.987** |
 | Gaussian Naive Bayes | 94.28% | 0.996 | 0.765 | 0.865 |
 | K-Nearest Neighbors | 82.22% | 0.711 | 0.440 | 0.543 |
 | Bernoulli Naive Bayes | 76.09% | 0.667 | 0.012 | 0.024 |
@@ -100,57 +110,59 @@ Represents the applicant's overall debt burden.
 
 ---
 
-## 🏆 Best Performing Model
+# 🏆 Best Performing Model
 
-**Logistic Regression** achieved the highest overall performance across all evaluation metrics and was selected as the final production model.
+**Logistic Regression** achieved the highest performance among all evaluated models and was selected as the final production model.
 
-**Final Performance**
+### Final Performance
 
-- Accuracy: **99.37%**
-- Precision: **1.000**
-- Recall: **0.974**
-- F1 Score: **0.987**
+| Metric | Score |
+|--------|-------:|
+| Accuracy | **99.37%** |
+| Precision | **1.000** |
+| Recall | **0.974** |
+| F1 Score | **0.987** |
 
 ---
 
 # 🔄 Machine Learning Workflow
 
-```
+```text
 Dataset
-      │
-      ▼
+   │
+   ▼
 Data Cleaning
-      │
-      ▼
+   │
+   ▼
 Missing Value Imputation
-      │
-      ▼
+   │
+   ▼
 Feature Engineering
-      │
-      ▼
+   │
+   ▼
 Encoding
-      │
-      ▼
-Min-Max Scaling
-      │
-      ▼
+   │
+   ▼
+Feature Scaling
+   │
+   ▼
 Model Training
-      │
-      ▼
+   │
+   ▼
 Model Evaluation
-      │
-      ▼
-Model Selection
-      │
-      ▼
+   │
+   ▼
+Best Model Selection
+   │
+   ▼
 Streamlit Deployment
 ```
 
 ---
 
-## 📈 Evaluation Metrics
+# 📈 Model Evaluation Metrics
 
-Models were compared using:
+The models were evaluated using:
 
 - Accuracy Score
 - Precision Score
@@ -162,53 +174,116 @@ Models were compared using:
 
 # 🛠️ Technology Stack
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
-- Joblib
+- 🐍 Python
+- 🐼 Pandas
+- 🔢 NumPy
+- 🤖 Scikit-learn
+- 🌐 Streamlit
+- 💾 Joblib
 
 ---
 
 # 📂 Project Structure
 
-```
-bank-loan-approval-prediction/
-
-│── app.py
-│── loan_model.pkl
-│── requirements.txt
-│── README.md
-│── BankLoanClassification.ipynb
-│── bank_loan_classification_dataset.csv
+```text
+Bank-Loan-Approval-Prediction/
+│
+├── app.py
+├── loan_model.pkl
+├── BankLoanClassification.ipynb
+├── bank_loan_classification_dataset.csv
+├── requirements.txt
+├── README.md
+└── screenshots/
+    ├── home.png
+    ├── prediction.png
+    └── result.png
 ```
 
 ---
 
 # 📈 Application Output
 
-The application predicts:
+The application provides:
 
-- ✅ Loan Approval / Rejection
+- ✅ Loan Approval / Rejection Prediction
 - 📊 Approval Probability
 - 📉 Rejection Probability
-- ⚠️ Risk Assessment
+- ⚠️ Applicant Risk Assessment
 
-### Risk Categories
+### Risk Levels
 
-🟢 **Low Risk Applicant**
+🟢 **Low Risk**
 
-🟡 **Medium Risk Applicant**
+🟡 **Medium Risk**
 
-🔴 **High Risk Applicant**
+🔴 **High Risk**
+
+---
+
+# 🚀 Run Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/Dhruv-develop/Bank-Loan-Approval-Prediction.git
+```
+
+Navigate to the project directory
+
+```bash
+cd Bank-Loan-Approval-Prediction
+```
+
+Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🌐 Live Demo
+
+<div align="center">
+
+<a href="https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/">
+<img src="https://img.shields.io/badge/🚀%20Open%20Live%20Application-Streamlit-red?style=for-the-badge&logo=streamlit">
+</a>
+
+</div>
+
+---
+
+# 📸 Application Preview
+
+> Add screenshots of your application here.
+
+| Home Page | Prediction Result |
+|-----------|-------------------|
+| ![](screenshots/home.png) | ![](screenshots/result.png) |
 
 ---
 
 # 👨‍💻 Author
 
-**Dhruv Rapariya**
+### Dhruv Rapariya
+
+- 💼 LinkedIn: https://www.linkedin.com/in/dhruv-rapariya
+- 💻 GitHub: https://github.com/Dhruv-develop
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star on GitHub!
+<div align="center">
+
+### ⭐ If you found this project helpful, please consider giving it a Star!
+
+**Thank you for visiting this repository!**
+
+</div>
