@@ -22,6 +22,18 @@ The model is deployed as an interactive **Streamlit Web Application**, allowing 
 
 ---
 
+# 🌐 Live Demo
+
+<div align="center">
+
+<a href="https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/">
+<img src="https://img.shields.io/badge/🚀%20Open%20Live%20Application-Streamlit-red?style=for-the-badge&logo=streamlit">
+</a>
+
+</div>
+
+---
+
 ## ✨ Key Features
 
 - 🏦 Loan Approval Prediction
@@ -216,18 +228,6 @@ The application provides:
 
 ---
 
-# 🌐 Live Demo
-
-<div align="center">
-
-<a href="https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/">
-<img src="https://img.shields.io/badge/🚀%20Open%20Live%20Application-Streamlit-red?style=for-the-badge&logo=streamlit">
-</a>
-
-</div>
-
----
-
 # 👨‍💻 Author
 
 ### Dhruv Rapariya
@@ -237,7 +237,5 @@ The application provides:
 <div align="center">
 
 ### ⭐ If you found this project helpful, please consider giving it a Star!
-
-**Thank you for visiting this repository!**
 
 </div>
