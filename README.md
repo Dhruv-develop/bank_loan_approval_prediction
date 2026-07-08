@@ -171,30 +171,6 @@ Models were compared using:
 
 ---
 
-# 📸 Application Preview
-
-> Add screenshots of your Streamlit application here.
-
-### Home Page
-
-```
-screenshots/home.png
-```
-
-### Prediction Result
-
-```
-screenshots/prediction.png
-```
-
-### Risk Assessment
-
-```
-screenshots/risk.png
-```
-
----
-
 # 📂 Project Structure
 
 ```
@@ -206,11 +182,6 @@ bank-loan-approval-prediction/
 │── README.md
 │── BankLoanClassification.ipynb
 │── bank_loan_classification_dataset.csv
-│
-├── screenshots/
-│   ├── home.png
-│   ├── prediction.png
-│   └── risk.png
 ```
 
 ---
@@ -234,41 +205,9 @@ The application predicts:
 
 ---
 
-# ▶️ Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/Dhruv-develop/Bank-Loan-Approval-Prediction.git
-```
-
-Navigate to the project directory
-
-```bash
-cd Bank-Loan-Approval-Prediction
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
----
-
 # 👨‍💻 Author
 
 **Dhruv Rapariya**
-
-🔗 GitHub: https://github.com/Dhruv-develop
-
-🔗 LinkedIn: https://www.linkedin.com/in/dhruv-rapariya
 
 ---
 
