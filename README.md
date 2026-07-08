@@ -2,13 +2,6 @@
 
 > A Machine Learning-powered **Streamlit web application** that predicts whether a customer's loan application is likely to be approved based on demographic, employment, financial, and credit-related information.
 
-# 🏦 Bank Loan Approval Prediction
-
-[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)](https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#)
-
 ## 🌐 Live Demo
 
 🔗 **Streamlit App:**  
