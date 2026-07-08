@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 <a href="https://bankloanapprovalprediction-gvlmwke8x6nfvxv5cvavhn.streamlit.app/">
 <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20App-Streamlit-red?style=for-the-badge&logo=streamlit">
@@ -194,10 +193,6 @@ Bank-Loan-Approval-Prediction/
 ├── bank_loan_classification_dataset.csv
 ├── requirements.txt
 ├── README.md
-└── screenshots/
-    ├── home.png
-    ├── prediction.png
-    └── result.png
 ```
 
 ---
@@ -221,34 +216,6 @@ The application provides:
 
 ---
 
-# 🚀 Run Locally
-
-Clone the repository
-
-```bash
-git clone https://github.com/Dhruv-develop/Bank-Loan-Approval-Prediction.git
-```
-
-Navigate to the project directory
-
-```bash
-cd Bank-Loan-Approval-Prediction
-```
-
-Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Streamlit application
-
-```bash
-streamlit run app.py
-```
-
----
-
 # 🌐 Live Demo
 
 <div align="center">
@@ -261,22 +228,9 @@ streamlit run app.py
 
 ---
 
-# 📸 Application Preview
-
-> Add screenshots of your application here.
-
-| Home Page | Prediction Result |
-|-----------|-------------------|
-| ![](screenshots/home.png) | ![](screenshots/result.png) |
-
----
-
 # 👨‍💻 Author
 
 ### Dhruv Rapariya
-
-- 💼 LinkedIn: https://www.linkedin.com/in/dhruv-rapariya
-- 💻 GitHub: https://github.com/Dhruv-develop
 
 ---
 
